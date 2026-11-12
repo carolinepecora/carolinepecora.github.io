@@ -8,7 +8,7 @@
     <link rel="icon" type="image/x-icon" href="./images/jade.png">
     <!--seo fields-->
     <title>Caroline Pecora</title>
-    <meta name="description" content="Caroline Pecora is an emerging journalist studying at the University of Maryland. She is passionate about uncovering the truth and experienced in reporting, writing, engagement and photography.">
+    <meta name="description" content="Caroline Pecora is a New York City-based journalist and digital storyteller with experience in audience development, social media strategy, SEO, digital publishing and short-form video production.">
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,39 +19,58 @@
 </head>
 <body>
 
-    <header>
-        <div class="row justify-content-between align-items-center">
-            <div class="col-md-6">
-                <a href="../"><h1>Caroline Pecora</h1></a>
-            </div>
-            <div class="w-100 d-block d-lg-none"></div>
-            <div class="col-2">
-                <a href="../clips/">Clips</a>
-            </div>
-            <div class="col-2">
-                <a href="../photos">Photos</a>
-            </div>
-            <div class="col-2">
-                <a href="../contact">Contact</a>
-            </div>
-        </div>
+    <header class="site-header">
+        <a class="site-name" href="./"><h1>Caroline Pecora</h1></a>
+        <nav aria-label="Main navigation">
+            <a href="./clips/">Clips</a>
+            <a href="./contact/">Contact</a>
+        </nav>
     </header>
 
-<!-- -->
-
     <main>
-        <div class="container">
+        <section class="container selected-work" aria-labelledby="selected-work-title">
+            <div class="selected-work-heading">
+                <h2 id="selected-work-title">Selected Work</h2>
+                <a href="./clips/">See all clips</a>
+            </div>
+            <div class="selected-work-grid">
+                <article class="selected-work-card">
+                    <img src="images/nokings.png" alt="">
+                    <div class="selected-work-copy">
+                        <p>Social Media · Sun Herald</p>
+                        <h3><a href="https://www.instagram.com/reel/DK2B0cjCLvi/" target="_blank" rel="noopener">Tips to protest safely in Mississippi</a></h3>
+                    </div>
+                </article>
+                <article class="selected-work-card">
+                    <img src="images/fallplaylist.png" alt="" style="--clip-image-position: center top">
+                    <div class="selected-work-copy">
+                        <p>Social Media · The Diamondback</p>
+                        <h3><a href="https://www.instagram.com/p/DPAHEypj_xu/" target="_blank" rel="noopener">What are Terps listening to this fall?</a></h3>
+                    </div>
+                </article>
+                <article class="selected-work-card">
+                    <img src="images/Eli-Greene.jpg" alt="">
+                    <div class="selected-work-copy">
+                        <p>Reporting · Capital News Service</p>
+                        <h3><a href="https://cnsmaryland.org/2025/05/19/college-students-move-across-state-lines-and-lose-access-to-therapy-as-a-result/" target="_blank" rel="noopener">College students move across state lines — and lose access to therapy as a result</a></h3>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="container" aria-labelledby="about-title">
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-6">
-                    <h2>About me</h2>
-                    <p>Hi! My name is Caroline Pecora. I’m a journalism student at the University of Maryland. While I love to write and take pictures, my true passion is audience engagement. I believe readers and viewers are the most important - yet often overlooked - part of journalism, so knowing an audience is at the heart of what I do. Check out my work and find my contact information in the tabs above.
-                    </p>
-                    <p>I love going to school in Maryland, but I’m a true Bostonian at heart. Growing up, I always enjoyed reading, writing and just about every other creative outlet, from dancing to drawing.  When I’m not working in InDesign or reviewing metrics, I'm probably crocheting a new sweater or getting outside with my dog Jade.</p>
+                    <h2 id="about-title">About me</h2>
+                    <p>Hi! I'm Caroline Pecora, a journalist and digital storyteller passionate about the intersection of journalism, technology and audience engagement. I'm a graduate of the University of Maryland, where I studied Multiplatform Journalism. Originally from just north of Boston, I'm now based in New York City.</p>
+                    <p>I'm interested in finding new ways to make meaningful reporting accessible, engaging and relevant to audiences wherever they consume news. My experience spans social media strategy, audience development, SEO, digital publishing and short-form video production.</p>
+                    <p>I've worked with a wide array of newsrooms to grow their digital audiences, develop social media strategies and produce content for social platforms. I enjoy experimenting with new ways to tell stories and helping good journalism reach more people.</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="images/profile_pic.jpg"alt="Caroline Pecora smiling under cherry blossoms" id="about-img">
+                    <img src="images/profile_pic.jpg" alt="Caroline Pecora smiling under cherry blossoms" id="about-img">
                 </div>
-        </div>
+            </div>
+        </section>
     </main>
 
 

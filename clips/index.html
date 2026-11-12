@@ -8,7 +8,7 @@
     <link rel="icon" type="image/x-icon" href="../images/jade.png">
     <!--seo fields-->
     <title>Clips</title>
-    <meta name="description" content="Published work by Caroline Pecora">
+    <meta name="description" content="Social media and reporting work by Caroline Pecora">
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,37 +19,160 @@
 </head>
 <body>
 
-    <header>
-        <div class="row justify-content-between align-items-center">
-            <div class="col-md-6">
-                <a href="../"><h1>Caroline Pecora</h1></a>
-            </div>
-            <div class="w-100 d-block d-lg-none"></div>
-            <div class="col-2">
-                <a href="../clips/">Clips</a>
-            </div>
-            <div class="col-2">
-                <a href="../photos">Photos</a>
-            </div>
-            <div class="col-2">
-                <a href="../contact">Contact</a>
-            </div>
-        </div>
+    <header class="site-header">
+        <a class="site-name" href="../"><h1>Caroline Pecora</h1></a>
+        <nav aria-label="Main navigation">
+            <a href="../clips/" aria-current="page">Clips</a>
+            <a href="../contact/">Contact</a>
+        </nav>
     </header>
 
-<!-- -->
-
-    <main>
+    <main class="clips-page">
         <div class="container">
-            <h2 style="text-align:center;">Clips</h2>
-            <div class="row justify-content-center" style="margin-top: 80px;">
-                <div class="col-md-5" style="text-align: center; margin-bottom: 40px;">
-                    <a href="written-reporting.html" class="button" style="display: inline-block; padding: 30px 50px; font-size: 24px; text-decoration: none;">Written Reporting</a>
+            <h2>Clips</h2>
+            <nav class="clip-jump-links" aria-label="Jump to clips by type">
+                <a href="#social-media">Social Media</a>
+                <a href="#reporting">Reporting</a>
+            </nav>
+
+            <section class="clip-section" aria-labelledby="social-media">
+                <h3 id="social-media" tabindex="-1">Social Media</h3>
+                <div class="clip-grid">
+                    <article class="clip-card">
+                        <img src="../images/camdenyards.png" alt="Caroline interviews an Orioles fan" style="--clip-image-position: center 26%">
+                        <div class="clip-card-copy">
+                            <p class="clip-source">Capital News Service · Instagram Reel</p>
+                            <h4><a href="https://www.instagram.com/reel/DH_zR_HRc9e/" target="_blank" rel="noopener">Opening Day at Camden Yards</a></h4>
+                        </div>
+                    </article>
+                    <article class="clip-card">
+                        <img src="../images/nokings.png" alt="Caroline explains how to stay safe during No Kings protests">
+                        <div class="clip-card-copy">
+                            <p class="clip-source">Sun Herald · Instagram Reel</p>
+                            <h4><a href="https://www.instagram.com/reel/DK2B0cjCLvi/" target="_blank" rel="noopener">Tips to protest safely in Mississippi</a></h4>
+                        </div>
+                    </article>
+                    <article class="clip-card">
+                        <img src="../images/shorething.png" alt="A Shore Thing drummer at his drum kit">
+                        <div class="clip-card-copy">
+                            <p class="clip-source">The Diamondback · Instagram Reel</p>
+                            <h4><a href="https://www.instagram.com/reel/DI37N_1x5Gp/" target="_blank" rel="noopener">Shore Thing hopes to revive College Park’s live music scene</a></h4>
+                        </div>
+                    </article>
+                    <article class="clip-card">
+                        <img src="../images/fallcoffee.png" alt="Caroline holds an iced latte" style="--clip-image-position: center 30%" loading="lazy" decoding="async">
+                        <div class="clip-card-copy">
+                            <p class="clip-source">The Diamondback · TikTok</p>
+                            <h4><a href="https://www.tiktok.com/@thedbknews/video/7566765442841218334" target="_blank" rel="noopener">What are people at UMD drinking this fall?</a></h4>
+                        </div>
+                    </article>
+                    <article class="clip-card">
+                        <img src="../images/reatorativepractices.jpg" alt="A hallway at Pocomoke High School" loading="lazy" decoding="async">
+                        <div class="clip-card-copy">
+                            <p class="clip-source">Capital News Service · Reddit</p>
+                            <h4><a href="https://www.reddit.com/r/maryland/comments/1jajbj0/how_one_maryland_school_district_turned_around/" target="_blank" rel="noopener">How one Maryland school district turned around student behavior with ‘restorative practices’</a></h4>
+                        </div>
+                    </article>
+                    <article class="clip-card">
+                        <img src="../images/fallplaylist.png" alt="The Diamondback’s fall playlist callout" style="--clip-image-position: center top" loading="lazy" decoding="async">
+                        <div class="clip-card-copy">
+                            <p class="clip-source">The Diamondback · Instagram post</p>
+                            <h4><a href="https://www.instagram.com/p/DPAHEypj_xu/" target="_blank" rel="noopener">What are Terps listening to this fall?</a></h4>
+                        </div>
+                    </article>
+                    <article class="clip-card">
+                        <img src="../images/SCdems.png" alt="South Carolina Democratic Party Chairwoman Christale Spain addresses a crowd" style="--clip-image-position: center 18%" loading="lazy" decoding="async">
+                        <div class="clip-card-copy">
+                            <p class="clip-source">The State · Instagram post</p>
+                            <h4><a href="https://www.instagram.com/p/DM0ZEo7M7TV/" target="_blank" rel="noopener">How can South Carolina Democrats turn visits from potential 2028 hopefuls into 2026 success?</a></h4>
+                        </div>
+                    </article>
+                    <article class="clip-card">
+                        <img src="../images/tsitp-review.png" alt="The Summer I Turned Pretty: A review from The Diamondback" loading="lazy" decoding="async">
+                        <div class="clip-card-copy">
+                            <p class="clip-source">The Diamondback · Instagram post</p>
+                            <h4><a href="https://www.instagram.com/p/DOwMJg_D9Il/" target="_blank" rel="noopener">'The Summer I Turned Pretty' review</a></h4>
+                        </div>
+                    </article>
+                    <article class="clip-card">
+                        <img src="../images/lowcountry-faves.png" alt="Shrimp and grits" loading="lazy" decoding="async">
+                        <div class="clip-card-copy">
+                            <p class="clip-source">The Sun News · Instagram post</p>
+                            <h4><a href="https://www.instagram.com/p/DMGHR1_Nh8T/" target="_blank" rel="noopener">Where to eat Lowcountry faves in Myrtle Beach</a></h4>
+                        </div>
+                    </article>
                 </div>
-                <div class="col-md-5" style="text-align: center; margin-bottom: 40px;">
-                    <a href="social-media.html" class="button" style="display: inline-block; padding: 30px 50px; font-size: 24px; text-decoration: none;">Social Media</a>
+            </section>
+
+            <section class="clip-section" aria-labelledby="reporting">
+                <h3 id="reporting" tabindex="-1">Reporting</h3>
+                <div class="clip-grid">
+                    <article class="clip-card">
+                        <img src="../images/Eli-Greene.jpg" alt="Eli Greene, a senior animal science major at the University of Maryland, poses for a portrait." loading="lazy" decoding="async">
+                        <div class="clip-card-copy">
+                            <p class="clip-source">Capital News Service · <time datetime="2025-05-19">May 2025</time></p>
+                            <h4><a href="https://cnsmaryland.org/2025/05/19/college-students-move-across-state-lines-and-lose-access-to-therapy-as-a-result/" target="_blank" rel="noopener">College students move across state lines — and lose access to therapy as a result</a></h4>
+                        </div>
+                    </article>
+                    <article class="clip-card">
+                        <img src="../images/Child-care-graphic.png" alt="Data graphic showing Americans pay more for child care compared to many other countries." loading="lazy" decoding="async">
+                        <div class="clip-card-copy">
+                            <p class="clip-source">Capital News Service · <time datetime="2024-07-16">July 2024</time></p>
+                            <h4><a href="https://cnsmaryland.org/2024/07/16/on-child-care-a-fitful-search-for-local-solutions-to-a-national-problem/" target="_blank" rel="noopener">On child care, a fitful search for local solutions to a national problem</a></h4>
+                        </div>
+                    </article>
+                    <article class="clip-card">
+                        <img src="../images/bump-grind.webp" alt="Bump &#x27;n Grind logo" loading="lazy" decoding="async">
+                        <div class="clip-card-copy">
+                            <p class="clip-source">Source of the Spring · <time datetime="2024-05-28">May 2024</time></p>
+                            <h4><a href="https://www.sourceofthespring.com/silver-spring-news/2824799/bump-n-grind-launches-investment-campaign-to-fund-a-renovated-community-hub/" target="_blank" rel="noopener">Bump ’n Grind Launches Investment Campaign to Fund a Renovated Community Hub</a></h4>
+                        </div>
+                    </article>
+                    <article class="clip-card">
+                        <img src="../images/red-cross.webp" alt="American Red Cross sign encouraging blood donations" loading="lazy" decoding="async">
+                        <div class="clip-card-copy">
+                            <p class="clip-source">Source of the Spring · <time datetime="2024-05-22">May 2024</time></p>
+                            <h4><a href="https://www.sourceofthespring.com/silver-spring-news/2824266/our-job-is-to-build-a-bridge-how-the-red-cross-serves-the-community/" target="_blank" rel="noopener">‘Our Job Is to Build a Bridge’: How the Red Cross Serves the Community</a></h4>
+                        </div>
+                    </article>
+                    <article class="clip-card">
+                        <img src="../images/oar-the-rainbow.webp" alt="Oar the Rainbow team logo" loading="lazy" decoding="async">
+                        <div class="clip-card-copy">
+                            <p class="clip-source">Source of the Spring · <time datetime="2024-05-02">May 2024</time></p>
+                            <h4><a href="https://www.sourceofthespring.com/silver-spring-news/2822856/rowing-trio-will-journey-across-the-pacific-ocean-to-promote-inclusivity-and-equality/" target="_blank" rel="noopener">Rowing Trio Will Journey Across the Pacific Ocean to Promote Inclusivity and Equality</a></h4>
+                        </div>
+                    </article>
+                    <article class="clip-card">
+                        <img src="../images/third-hill-logo.jpeg" alt="Wall art at Third Hill Brewing Co. of the business&#x27;s logo" loading="lazy" decoding="async">
+                        <div class="clip-card-copy">
+                            <p class="clip-source">Source of the Spring · <time datetime="2024-04-02">April 2024</time></p>
+                            <h4><a href="https://www.sourceofthespring.com/silver-spring-news/2820357/community-at-the-core-third-hill-brewing-co-continues-traditions-while-beginning-new-ones/" target="_blank" rel="noopener">Third Hill Brewing Co. Continues Traditions While Beginning New Ones</a></h4>
+                        </div>
+                    </article>
+                    <article class="clip-card">
+                        <img src="../images/ssrac_22624.webp" alt="Silver Spring Recreation and Aquatic Center lane pool" loading="lazy" decoding="async">
+                        <div class="clip-card-copy">
+                            <p class="clip-source">Source of the Spring · <time datetime="2024-02-26">February 2024</time></p>
+                            <h4><a href="https://www.sourceofthespring.com/silver-spring-news/2817748/silver-spring-recreation-and-aquatic-center-opens-to-serve-the-community/" target="_blank" rel="noopener">Silver Spring Recreation and Aquatic Center Opens to Serve the Community</a></h4>
+                        </div>
+                    </article>
+                    <article class="clip-card">
+                        <img src="../images/moco-bills-21424.jpeg" alt="Silver Spring Civic Center" loading="lazy" decoding="async">
+                        <div class="clip-card-copy">
+                            <p class="clip-source">Source of the Spring · <time datetime="2024-02-14">February 2024</time></p>
+                            <h4><a href="https://www.sourceofthespring.com/silver-spring-news/2816945/county-councilmembers-discuss-bills-that-address-housing-safety/" target="_blank" rel="noopener">County Councilmembers Discuss Bills That Address Housing, Safety</a></h4>
+                        </div>
+                    </article>
+                    <article class="clip-card">
+                        <img src="../images/offbeat.png" alt="Offbeat logo: turtle shell wearing headphones" loading="lazy" decoding="async">
+                        <div class="clip-card-copy">
+                            <p class="clip-source">The Diamondback · Podcast · <time datetime="2024-02">February 2024</time></p>
+                            <h4><a href="https://dbknews.com/2024/02/07/offbeat-umd-ai-era-careers/" target="_blank" rel="noopener">How are Terps making sense of the AI Era?</a></h4>
+                            <p><a href="https://podcasts.apple.com/us/podcast/offbeat-how-are-terps-making-sense-of-the-ai-era/id1530925638?i=1000644574732" target="_blank" rel="noopener">Listen on Apple Podcasts</a></p>
+                        </div>
+                    </article>
                 </div>
-            </div>
+            </section>
         </div>
     </main>
     
